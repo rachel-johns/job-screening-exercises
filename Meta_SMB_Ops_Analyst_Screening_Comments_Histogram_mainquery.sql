@@ -1,3 +1,5 @@
+/* This is the answer (main query). I have an additional file where I test the query. */
+
 WITH comment_counts AS (
     SELECT 
         user_id,
