@@ -1,4 +1,5 @@
-/* This is a test query to ensure the answer I provided in "Meta_SMB_Ops_Analyst_Screening_Comments_Histogram.sql" was correct. Basically, me checking my logic. I admit, is a bit excessive. */
+/* This is a test query to ensure the answer I provided in "Meta_SMB_Ops_Analyst_Screening_Comments_Histogram.sql" was correct.
+Basically, me checking my logic. I admit, is a bit excessive. */
 
 -- Create the users table
 CREATE TABLE users (
