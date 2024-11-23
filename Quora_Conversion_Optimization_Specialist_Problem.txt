@@ -1,0 +1,53 @@
+Skills Based Assessment for Conversion Optimization Specialist at Quora
+
+Prompt:
+A team wants to A/B test multiple different changes through a sign-up funnel.
+
+For example, on a page, a button is currently red and at the top of the page. They want to see if changing a button from red to blue and/or from the top of the page to the bottom of the page will increase click-through.
+
+How would you set up this test?
+
+
+Answer: 
+
+Steps to Set Up the A/B Test
+
+1. Define Hypotheses
+
+Hypothesis A: Changing the button color from red to blue will increase the click-through rate (CTR).
+Hypothesis B: Moving the button from the top of the page to the bottom will increase the CTR.
+Hypothesis C: Combining both changes (color + position) will have a greater impact on the CTR than changing just one factor.
+
+2. Design Variants:
+
+Control (A): The current design with the red button at the top.
+Variant 1 (B): The button is blue, but still at the top of the page.
+Variant 2 (C): The button is red, but moved to the bottom of the page.
+Variant 3 (D): The button is blue and moved to the bottom of the page.
+
+
+3. Random Assignment:
+
+Randomly assign users to one of the four groups: Control, Variant 1, Variant 2, or Variant. This ensures that any differences in click-through rates are attributed to the changes and not to pre-existing biases in the users.
+
+4. Measurement:
+
+Track the CTR for each group. This can be done by measuring how many users clicked the button out of the total number of users who viewed the page.
+
+
+5. Statistical Analysis:
+
+After collecting sufficient data, perform statistical analysis to determine if the differences in CTR are statistically significant.
+This could involve running a chi-squared test or a t-test to compare the results of the different groups.
+
+6. Interpret Results:
+
+If the difference in CTR is statistically significant, determine which variant(s) performed best.
+Consider the cost of implementing the best option and how it fits into the broader design of the page.
+
+---
+There are two other files in this repository that address this problem:
+
+1. The HTML file facilitates a test structure to explore how changes to button color and position affect user behavior in terms of click-through rate.
+
+2. The Python file provides an example of how to analyze the data to determine the most effective variant, helping make data-driven decisions for improving the sign-up funnel.

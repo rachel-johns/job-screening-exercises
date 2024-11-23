@@ -1,0 +1,104 @@
+<!-- Here’s an example of how to set up the A/B test in HTML and CSS for different button designs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A/B Test - Button Experiment</title>
+    <style>
+        /* Control (A) - Red button at the top */
+        .control {
+            text-align: center;
+        }
+
+        .control .button {
+            background-color: red;
+            padding: 10px 20px;
+            color: white;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        /* Variant 1 (B) - Blue button at the top */
+        .variant-1 {
+            text-align: center;
+        }
+
+        .variant-1 .button {
+            background-color: blue;
+            padding: 10px 20px;
+            color: white;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        /* Variant 2 (C) - Red button at the bottom */
+        .variant-2 {
+            text-align: center;
+        }
+
+        .variant-2 .button {
+            background-color: red;
+            padding: 10px 20px;
+            color: white;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        /* Variant 3 (D) - Blue button at the bottom */
+        .variant-3 {
+            text-align: center;
+        }
+
+        .variant-3 .button {
+            background-color: blue;
+            padding: 10px 20px;
+            color: white;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    </style>
+</head>
+<body>
+    <!-- Control Group A: Red button at the top -->
+    <div class="control">
+        <button class="button">Sign Up Now</button>
+    </div>
+
+    <!-- Variant 1 Group B: Blue button at the top -->
+    <div class="variant-1">
+        <button class="button">Sign Up Now</button>
+    </div>
+
+    <!-- Variant 2 Group C: Red button at the bottom -->
+    <div class="variant-2">
+        <button class="button">Sign Up Now</button>
+    </div>
+
+    <!-- Variant 3 Group D: Blue button at the bottom -->
+    <div class="variant-3">
+        <button class="button">Sign Up Now</button>
+    </div>
+</body>
+</html>
